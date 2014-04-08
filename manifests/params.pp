@@ -31,7 +31,7 @@ class php::params {
 
   $config_root = '/etc/php5'
 
-  $config_root_ini = "${::php::params::config_root}/mods-available"
+  $config_root_ini = "${::php::params::config_root}/conf.d"
 
   $augeas_contrib_dir = '/usr/share/augeas/lenses/contrib'
 
